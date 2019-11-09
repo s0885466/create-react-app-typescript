@@ -27,7 +27,7 @@ class Radiobutton extends Component<Props<Family>> {
           disabled={disabled}
           onChange={this.onChange}
         />
-        <label>{label}</label>
+        {label && <label>{label}</label>}
       </div>
 
     );
