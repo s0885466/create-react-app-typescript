@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
+import Module1 from './modules/Module1';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-rrrrr
+        <Module1/>
       </header>
-    </div>
-  );
+    </div>);
 };
 
 export default App;
