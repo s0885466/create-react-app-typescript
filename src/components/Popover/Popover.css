@@ -1,0 +1,14 @@
+.popover {
+  position: relative; }
+  .popover .inline-block {
+    display: inline-block; }
+  .popover .popover-content {
+    position: absolute;
+    background-color: red;
+    opacity: 1;
+    transition: 0.5s; }
+  .popover .hide {
+    visibility: hidden;
+    opacity: 0; }
+
+/*# sourceMappingURL=Popover.css.map */

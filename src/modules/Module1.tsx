@@ -22,6 +22,7 @@ class Module1 extends Component {
   };
 
   onChange = (value: Family): void => {
+    console.log(value);
     this.setState({
       value: value
     });
@@ -40,7 +41,7 @@ class Module1 extends Component {
     return (
       <div>
         <RadioBlock
-          inline={false}
+          inline
           options={options}
           name={name}
           value={value}

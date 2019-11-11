@@ -1,0 +1,24 @@
+.popover {
+  position: relative;
+
+  .inline-block{
+    display: inline-block;
+  }
+
+  .popover-content {
+    position: absolute;
+
+    background-color: red;
+    opacity: 1;
+
+    transition: 0.5s;
+  }
+
+  .hide {
+   visibility: hidden;
+    opacity: 0;
+  }
+
+}
+
+
