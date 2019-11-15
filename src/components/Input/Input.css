@@ -1,0 +1,39 @@
+label {
+  display: block; }
+
+.input {
+  position: relative;
+  display: inline-block; }
+  .input input {
+    padding: 10px 0 5px 5px; }
+    .input input.error {
+      text-decoration: line-through;
+      outline: 1px solid #dd5656;
+      color: #dd5656; }
+  .input .promptMessage {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 8px;
+    color: #333;
+    transition: 0.3s; }
+  .input .close {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    color: #dd5656; }
+  .input .ok {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    color: #22a053; }
+  .input .promptMessageFocus {
+    top: 2px;
+    left: 2px;
+    font-size: 4px;
+    color: #333; }
+  .input .errorMessage {
+    font-size: 6px;
+    color: #dd5656; }
+
+/*# sourceMappingURL=Input.css.map */
